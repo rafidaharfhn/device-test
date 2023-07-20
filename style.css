@@ -7,7 +7,7 @@
 
 
 
-.input-field{ 
+.input-field{     
     padding-left: 40px !important;
 }
 
@@ -146,6 +146,7 @@ tbody a{
 
 /* // `sm` applies to x-small devices (portrait phones, less than 576px) */
 /* ini kebawah penting buat mobile */
+
 @media (max-width: 575.98px) { 
 
     h1{
@@ -176,7 +177,7 @@ tbody a{
         display: none;
     }
     .card-method{
-        padding-right: -18px !important;
+        /* padding-right: -18px !important; */
         /* padding: 1px 16px; */
     }
     .circle-percentage{            
@@ -184,7 +185,7 @@ tbody a{
         width: 45px !important;
         height: 45px;
         margin-left: -30px !important;    
-        margin-top: -5px !important;        
+        margin-top:20px !important;        
     }
 
     .card-method{
@@ -209,7 +210,7 @@ tbody a{
     
     .circle-percentage{             
         margin-left: -40px;    
-        margin-top: 40px !important;        
+        margin-top: 50px ;
     }
 
     .banner{
@@ -219,6 +220,10 @@ tbody a{
 
 /* // `lg` applies to medium devices (tablets, less than 992px) */
 @media (max-width: 991.98px) { 
+    .banner{
+        margin-top: 30px !important;
+    }
+
     .circle-percentage{
         margin-top: 30px;
     }
