@@ -1,6 +1,22 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,500;0,600;1,300;1,400;1,600&display=swap');
 
 
+/* .carousel-inner{
+    max-width: 330px;
+} */
+
+
+
+.input-field{ 
+    padding-left: 40px !important;
+}
+
+form i{
+    position: absolute;
+    padding-left: 16px;
+}
+
+
 *{
     margin: 0;
     padding: 0;
@@ -11,7 +27,7 @@ body{
     background-color: #F1F5FC;
     /* box-shadow: 0px 0px 2px 0px rgba(0,0,0,0.12); */
     font-family: 'Poppins', sans-serif;    
-    margin-bottom: 1000px;
+    margin-bottom: 100px;
 }
 
 h1{
@@ -45,6 +61,7 @@ tbody{
 tbody a{
     font-weight: 500;
 }
+
 
 .top-bar{
     margin-top: 80px;
@@ -103,7 +120,7 @@ tbody a{
     align-items: center;
     justify-content: center;
     border-radius: 50px;    
-    font-size: 24px;  
+    font-size: 22px;  
     font-weight: bolder;
     width: 60px !important;
     height: 60px;
@@ -139,19 +156,17 @@ tbody a{
     table{
         /* width: 200px; */
     }
-         
+    
+/*          
     .scroller {
-        width: 200px;
+        width: 550px;
         height: 300px;
         overflow-y: scroll;
         overflow-x: scroll;
         scrollbar-width: thin;
-    }
+    } */
     
-    .learning-method img{
-        
-        /* display: none; */
-    }
+    
 
     .method h3{
         font-size: 12px !important;
@@ -168,7 +183,7 @@ tbody a{
         font-size: 16px;          
         width: 45px !important;
         height: 45px;
-        margin-left: -20px !important;    
+        margin-left: -30px !important;    
         margin-top: -5px !important;        
     }
 
@@ -183,13 +198,18 @@ tbody a{
 
 /* // `md` applies to small devices (landscape phones, less than 768px) */
 @media (max-width: 767.98px) {   
+
+    h1{
+        font-size: 18px;
+        line-height: normal;
+    }
     .devel{        
         flex-direction: column-reverse;
     }
     
     .circle-percentage{             
-        margin-left: -30px;    
-        margin-top: 40px;        
+        margin-left: -40px;    
+        margin-top: 40px !important;        
     }
 
     .banner{
@@ -210,7 +230,12 @@ tbody a{
  }
 
 /* // `xl` applies to large devices (desktops, less than 1200px) */
-@media (max-width: 1199.98px) { ... }
+@media (max-width: 1199.98px) {
+    .circle-percentage{
+        margin-top: 30px;
+    }
+
+ }
 
 /* // `xxl` applies to x-large devices (large desktops, less than 1400px) */
 @media (max-width: 1399.98px) { ... }
