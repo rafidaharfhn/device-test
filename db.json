@@ -1,0 +1,68 @@
+{
+    "Validations":null,
+    "status":200,
+    "timeStamp":"2023-07-27T02:53:22+0000",
+    "totalRecords":180,
+    "data":[
+        {
+            "InprogressSummaryUrl": "/LMS/UserTranscript/MainView.aspx?inProgressOnly=True",
+            "Transcripts":[
+            {
+                "__type":"SessionTranscriptItem:www.CornerStoneOnDemand.com/Services",
+                "CompletionDate": "2023-07-25T01:20:00+0000",
+                "DueDate": null,
+                "LastAccessDate": null ,
+                "LaunchUrl": "/LMS/UserTranscript/CommonLOView.aspx?loId=%5e%5e%5e3VGzspY0v5GYGMRba4PJBo%2byTHkBeyHPWRkbDbpGAkpqsFHF8%2furCQKicnPowCd1&user_id=8481" ,
+                "LoId": "7f5e8fb5-1663-49df-9438-94988d977e33",
+                "LoProviderId":"",
+                "LoType":"Session",
+                "ProviderName":"Cornerstone",
+                "RegistrationDate":"2023-07-25T04:19:53+0000",
+                "Score":"100",
+                "Status":"Completed",            
+                "Subjects":[
+                        {
+                            "SubjectId": 571,
+                            "SubjectTitle": "Business Analysis and Strategy"
+                        }
+                ],
+                
+                "Title": "Test Event Alight - CC",
+                "TotalTime": "0000:50:00",
+                "TrainingHours":"0000:50:00",
+                "EndDateTime": "2023-07-25T01:20:00+0000",
+                "Parts":[],
+                "StartDateTime": "2023-07-25T00:30:00+0000"
+            },
+            {
+                "__type":"SessionTranscriptItem:www.CornerStoneOnDemand.com/Services",
+                "CompletionDate": "2023-07-25T01:20:00+0000",
+                "DueDate": null,
+                "LastAccessDate": null ,
+                "LaunchUrl": "/LMS/UserTranscript/CommonLOView.aspx?loId=%5e%5e%5e3VGzspY0v5GYGMRba4PJBo%2byTHkBeyHPWRkbDbpGAkpqsFHF8%2furCQKicnPowCd1&user_id=8481" ,
+                "LoId": "7f5e8fb5-1663-49df-9438-94988d977e33",
+                "LoProviderId":"",
+                "LoType":"Session",
+                "ProviderName":"Cornerstone",
+                "RegistrationDate":"2023-07-25T04:19:53+0000",
+                "Score":"100",
+                "Status":"Completed",            
+                "Subjects":[
+                        {
+                            "SubjectId": 571,
+                            "SubjectTitle": "Business Analysis and Strategy"
+                        }
+                ],
+                
+                "Title": "Test Event Alight - CC",
+                "TotalTime": "0000:50:00",
+                "TrainingHours":"0000:50:00",
+                "EndDateTime": "2023-07-25T01:20:00+0000",
+                "Parts":[],
+                "StartDateTime": "2023-07-25T00:30:00+0000"
+            }
+        ]
+            
+        }
+]
+}
